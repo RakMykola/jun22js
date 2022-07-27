@@ -80,5 +80,5 @@ console.log(typeof num,typeof str,typeof bool);
 
 // let name = prompt('name?');
 // let lastname2 = prompt('Lastname?');
-// let age = prompt('Age?');
+// let age = +prompt('Age?');
 // console.log(name,lastname2,age);
