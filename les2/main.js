@@ -68,52 +68,52 @@ console.log(book4,book5,book6);
 // - Створити масив з 10 об'єктами які описують сутніть "користувач". Поля: name, username,password. Вивести в консоль пароль кожного користувача
 
 let arrUsers = [
-    user1 = {
+    {
         name: 'Vasya',
         username: 'Vasya1',
         password: 1234
     },
-    user2 = {
+    {
         name: 'Vasya2',
         username: 'Vasya2',
         password: 5678
     },
-    user3 = {
+     {
         name: 'Vasya3',
         username: 'Vasya3',
         password: 91011
     },
-    user4 = {
+     {
         name: 'Vasya4',
         username: 'Vasya4',
         password: 1213
     },
-    user5 = {
+    {
         name: 'Vasya5',
         username: 'Vasya5',
         password: 1415
     },
-    user6 = {
+  {
         name: 'Vasya6',
         username: 'Vasya6',
         password: 1617
     },
-    user7 = {
+    {
         name: 'Vasya7',
         username: 'Vasya7',
         password: 1819
     },
-    user8= {
+    {
         name: 'Vasya8',
         username: 'Vasya8',
         password: 2021
     },
-    user9 = {
+     {
         name: 'Vasya9',
         username: 'Vasya9',
         password: 2223
     },
-    use10 = {
+     {
         name: 'Vasya10',
         username: 'Vasya10',
         password: 2324
