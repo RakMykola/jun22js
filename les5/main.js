@@ -87,11 +87,6 @@ arrObjectEject(arrPep);
 
 // - створити функцію яка повертає найменьше число з масиву
 let arrNum = [10,2,3,4,5,6,7,8,9];
-// let arreyMin = (a)=> {
-//     console.log(Math.min(...a));
-//
-// }
-// arreyMin(arrNum);
 
 let funMin = (array)=> {
     let min = array[0];
