@@ -1,0 +1,41 @@
+body{
+    display:flex;
+    flex-direction: column-reverse;
+}
+
+.divButtonDetails{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    width: 90%;
+}
+
+.divWrapDetails{
+    width: 20%;
+}
+
+.divWrapDetailsAll{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.divWrapComments{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.divComments{
+    width: 20%;
+    height: 10%;
+
+    background-color: rgb(246, 246, 20);
+    margin: 5px;
+}
+
+.postDetails,.postsDetails{
+    background-color: cornflowerblue;
+    color: white;
+    margin: 5px;
+}

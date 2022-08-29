@@ -1,0 +1,17 @@
+body{
+    display: flex;
+    flex-wrap: wrap;
+}
+.user-index{
+    width: 40%;
+}
+
+.divwrap{
+    width: 50%;
+}
+
+.user-index{
+    background-color: cornflowerblue;
+    color: white;
+    margin: 5px;
+}
