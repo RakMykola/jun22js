@@ -107,11 +107,60 @@ arrRef(arrNorm);
 // - створити функцію, яка якщо приймає один аргумент, просто вивдоить його,
 //  якщо два аргументи - складає або конкатенує їх між собою.
 const funcIFConcat = (a,b)=>{
-    // console.log(a);
-    if(a){
-        console.log(a);
-    }if(a,b){
+    if(a && b){
         console.log(a + b);
+    }else{
+        console.log(a);
     }
 }
-funcIFConcat(3,5);
+funcIFConcat(10,5);
+
+
+// - створити функцію  яка приймає два масиви та скаладає значення елементів
+//  з однаковими індексами  та повертає новий результуючий масив.
+//   EXAMPLE:
+const arrOne = [1,2,3,4];
+const arrTwo =  [2,3,4,5];
+//   результат
+//   [3,5,7,9]
+
+const funcConcatElements =(arr1,arr2)=>{
+    let result = [];
+     for (let i = 0; i < arr1.length; i++) {
+        result[result.length] = arr1[i] + arr2[i]
+     }
+return console.log(result);;
+}
+funcConcatElements(arrOne,arrTwo);
+
+// - Створити функцію яка приймає масив будь яких объектів, та повертає масив ключів всіх обєктів
+//   EXAMPLE:
+//   [{name: 'Dima', age: 13}, {model: 'Camry'}]  ===> [ name, age, model ]
+
+const arrObj = [{name: 'Dima', age: 13}, {model: 'Camry'}];
+const funcKejObj = (arr)=>{
+    let kejob= [];
+    for (const iterator of arr) {
+        for (const obj in iterator) {
+            kejob[kejob.length] =(`${obj}`);
+        }
+    }
+    return console.log(kejob);
+}
+funcKejObj(arrObj);
+
+// - Створити функцію яка приймає масив будь яких объектів, та повертає масив значень всіх обєктів
+//   EXAMPLE:
+//   [{name: 'Dima', age: 13}, {model: 'Camry'}]  ===> [ Dima, 13, Camry ]
+
+const arrObj2 = [{name: 'Dima', age: 13}, {model: 'Camry'}];
+const funcKejObj2 = (arr)=>{
+    let kejob= [];
+    for (const iterator of arr) {
+        for (const obj in iterator) {
+            kejob[kejob.length] =(`${iterator[obj]}`);
+        }
+    }
+    return console.log(kejob);
+}
+funcKejObj2(arrObj2);
